@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#2e353f">
+    <TableRow>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="&#xf073; Date"
+            android:layout_weight="1"
+            android:id="@+id/date"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:background="#399BBE"
+            android:textColor="#000000"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="&#xf007; A"
+            android:layout_weight="0.5"
+            android:id="@+id/anji_amount"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:background="#399BBE"
+            android:textColor="#000000"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="&#xf007; K"
+            android:layout_weight="0.5"
+            android:id="@+id/kesav_amount"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:background="#399BBE"
+            android:textColor="#000000"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="&#xf007; T"
+            android:layout_weight="0.5"
+            android:id="@+id/trinadh_amount"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:background="#399BBE"
+            android:textColor="#000000"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="&#xf007; S"
+            android:layout_weight="0.5"
+            android:id="@+id/sujith_amount"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:background="#399BBE"
+            android:textColor="#000000"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="&#xf007; V"
+            android:layout_weight="0.5"
+            android:id="@+id/vicky_amount"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:background="#399BBE"
+            android:textColor="#000000"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="&#xf007; C"
+            android:layout_weight="0.5"
+            android:id="@+id/chakri_amount"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:background="#399BBE"
+            android:textColor="#000000"
+            />
+
+    </TableRow>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        />
+
+</TableLayout>

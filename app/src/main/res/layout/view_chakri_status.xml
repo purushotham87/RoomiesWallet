@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#2e353f">
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/chakri"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_column="4" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/whatsapp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="#4caad5"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:text="&#xf1d8; Send it on whatsapp"
+            android:onClick="create"
+            android:textAllCaps="false"
+            android:paddingRight="35dp"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/white" />
+    </TableRow>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical"
+        />
+
+
+</TableLayout>

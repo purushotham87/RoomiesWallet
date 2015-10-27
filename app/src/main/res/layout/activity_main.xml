@@ -1,0 +1,235 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#2e353f"
+    >
+
+<TableLayout  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E353F">
+
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/roomies"
+            android:layout_width="wrap_content"
+            android:textSize="50sp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="25dp"
+            android:layout_height="wrap_content"
+
+            android:text="Roomies"
+            android:textColor="#4caad5"
+
+            android:ems="10"
+
+            />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/wallet"
+            android:layout_width="wrap_content"
+            android:textSize="50sp"
+            android:layout_marginTop="0.03dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginRight="25dp"
+            android:layout_height="wrap_content"
+
+            android:text=" Wallet"
+            android:textColor="#4caad5"
+
+            android:ems="10"
+
+            />
+    </TableRow>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#xf155;  Add Item"
+        android:id="@+id/add_item"
+        android:paddingRight="140dp"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:background="#399BBE"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="50dp"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#xf07b;  View All Records"
+        android:id="@+id/view_all"
+        android:textAllCaps="false"
+        android:paddingRight="90dp"
+        android:background="#26A050"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+         />
+    <TableRow>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:text="&#xf007; By Person"
+            android:id="@+id/by_person"
+
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:background="#559C5A"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:text="&#xf156; By Amount"
+            android:id="@+id/by_amount"
+
+            android:textColor="#FFFFFF"
+            android:background="#559C5A"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </TableRow>
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#xf0c0;  View Person Status"
+        android:id="@+id/person_status"
+        android:paddingRight="70dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="#399BBE"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+         />
+    <TableRow>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:text="&#xf007; Anji"
+            android:id="@+id/anji"
+
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:background="#006B8D"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:text="&#xf007; Kesav"
+            android:id="@+id/kesav"
+
+            android:textColor="#FFFFFF"
+            android:background="#006B8D"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:text="&#xf007; Trinadh"
+            android:id="@+id/trinadh"
+
+            android:textColor="#FFFFFF"
+            android:background="#006B8D"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:text="&#xf007; Sujith"
+            android:id="@+id/sujith"
+
+            android:textColor="#FFFFFF"
+            android:background="#006B8D"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:text="&#xf007; Vicky"
+            android:id="@+id/vicky"
+
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:background="#006B8D"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:text="&#xf007; Chakri"
+            android:id="@+id/chakri"
+
+            android:textColor="#FFFFFF"
+            android:background="#006B8D"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </TableRow>
+
+
+
+
+</TableLayout>
+</ScrollView>

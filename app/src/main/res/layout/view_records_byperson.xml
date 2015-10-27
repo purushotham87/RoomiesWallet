@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#2e353f">
+    <TableRow>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="&#xf073; Date"
+            android:layout_weight="1.1"
+            android:id="@+id/date"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:background="#399BBE"
+            android:textColor="#000000"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="&#xf040; Item Type"
+            android:layout_weight="1.3"
+            android:id="@+id/description"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:background="#399BBE"
+            android:textColor="#000000"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="&#xf007; Person"
+            android:layout_weight="1"
+            android:id="@+id/person"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:background="#399BBE"
+            android:textColor="#000000"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="&#xf156; Amount"
+            android:layout_weight="1"
+            android:id="@+id/amount"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:background="#399BBE"
+            android:textColor="#000000"
+            />
+    </TableRow>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        />
+
+</TableLayout>

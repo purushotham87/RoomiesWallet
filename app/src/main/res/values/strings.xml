@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Roomies Wallet</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="list_of_names">
+    <item >anji</item>
+    <item >kesav</item>
+    <item >trinadh</item>
+    <item >sujith</item>
+    <item >vicky</item>
+    <item >chakri</item>
+
+
+    </string-array>
+</resources>
